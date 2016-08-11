@@ -1,0 +1,63 @@
+body
+{
+	background-color:#f1f1f1;
+}
+hr
+{
+	margin-top: 40px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0; 
+}
+#internship-heading
+{
+	text-align: center;
+	text-decoration: underline;
+	margin-top:50px;
+}
+#company-name
+{
+	color:#4d4dff;
+	font-size:1.4em;
+}
+.intern
+{
+	margin-top:50px;
+}
+#internship-type
+{
+	font-size:1.6em;
+	margin-bottom:-10px;
+}
+#loc
+{
+	font-size:1.2em;
+	margin-bottom: 40px;
+}
+table
+{
+	border-collapse: collapse;
+	width:100%;
+	text-align: center;
+}
+td
+{
+	font-size:1.2em;
+	text-align: center;
+	padding-right: 100px;
+	padding-bottom:0.5em;
+}
+#internships
+{
+	padding-bottom:10px;
+}
+#location
+{
+	color:#4d4dff;
+}
+.intern a:link
+{
+	text-decoration:;
+}
