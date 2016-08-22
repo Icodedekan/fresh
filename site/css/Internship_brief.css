@@ -13,17 +13,19 @@ hr
 }
 #details-headings
 {
-	color:#4ac948;
+	font-weight: bold;
+	color:#4AC948;;
 }
 #internship-heading
 {
 	text-align: center;
 	text-decoration: underline;
-	margin-top:50px;
+	margin-top:100px;
+	font-size:1.5em;
 }
 #company-name
 {
-	color:#4d4dff;
+	color:#4AC948;
 	font-size:1.4em;
 }
 .intern
@@ -32,11 +34,12 @@ hr
 }
 #internship-type
 {
-	font-size:1.4em;
+	font-size:1.6em;
 	margin-bottom:-10px;
 }
 #loc
 {
+	font-size:1.2em;
 	margin-bottom: 40px;
 }
 table
@@ -58,33 +61,5 @@ td
 }
 #location
 {
-	font-size:1.2em;
-	color:#4d4dff;
-}
-.intern a:link
-{
-	text-decoration:;
-}
-#about span
-{
-	text-decoration: underline;
-	font-size:1.4em;
-}
-p
-{
-	font-size: 1.1em;
-	letter-spacing: 0.1px;
-	margin-top: 10px;
-}
-#about-intern
-{
-	margin-bottom: 10px;
-	font-size:1.3em;
-	text-decoration: underline;
-}
-#about-company
-{
-	margin-bottom:10px;
-	font-size:1.3em;
-	text-decoration: underline;
+	color:#4AC948;
 }

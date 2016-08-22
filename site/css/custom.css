@@ -1,0 +1,21 @@
+
+.intern-nav{
+background-color: black;
+filter: opacity(85%);
+color:white;
+}
+.nav-items{
+	color: white;
+}
+.site-title{
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+}
+.thumb-decription{
+	font-size: 1.3vw;
+}
+.align-center{
+	text-align: center;
+}
