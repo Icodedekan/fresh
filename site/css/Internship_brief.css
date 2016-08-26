@@ -194,3 +194,18 @@ td
 		margin-right:20px;
 	}
 }
+@media (max-width:400px)
+{
+	#details-headings td
+	{
+		display:inline-block;
+		padding:0;
+		margin-right:5px;
+	}
+	#details-values td
+	{
+		padding:0;
+		display:inline-block;
+		margin-right:5px;
+	}
+}
