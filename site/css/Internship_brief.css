@@ -88,6 +88,10 @@ td
 	{
 		font-weight: normal;
 	}
+	table
+	{
+		text-align:center;
+	}
 	h2
 	{
 		font-size:1.4em;
@@ -122,6 +126,10 @@ td
 		padding-left:25px;
 		padding-right:25px;
 	}
+	table
+	{
+		text-align:center;
+	}
 	h2
 	{
 		font-size:1.3em;
@@ -153,8 +161,9 @@ td
 	}
 	td
 	{
-		padding-left:15px;
-		padding-right:15px;
+		margin-right: 20px;
+		display:inline-table;
+		text-align: center;
 	}
 	h2
 	{
@@ -185,6 +194,10 @@ td
 	{
 		text-align: center;
 		font-weight:normal;
+	}
+	table
+	{
+		text-align:center;
 	}
 	td
 	{
