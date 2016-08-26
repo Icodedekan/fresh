@@ -123,12 +123,9 @@ td
 	}
 	td
 	{
-		padding-left:25px;
-		padding-right:25px;
-	}
-	table
-	{
-		text-align:center;
+		margin-right: 20px;
+		display:inline-table;
+		text-align: center;
 	}
 	h2
 	{
