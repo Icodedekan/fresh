@@ -1,3 +1,7 @@
+*
+{
+	box-sizing: border-box;
+}
 body
 {
 	background-color:white;
@@ -88,10 +92,6 @@ td
 	{
 		font-weight: normal;
 	}
-	table
-	{
-		text-align:center;
-	}
 	h2
 	{
 		font-size:1.4em;
@@ -100,6 +100,18 @@ td
 /*For small devices*/
 @media (min-width: 768px) and (max-width: 991px)
 {
+	#details-headings td
+	{
+		display:inline-block;
+		padding:0;
+		margin-right:40px;
+	}
+	#details-values td
+	{
+		padding:0;
+		display:inline-block;
+		margin-right:40px;
+	}
 	hr
 	{
 		margin-bottom: 40px;
@@ -121,12 +133,6 @@ td
 	{
 		font-weight: normal;
 	}
-	td
-	{
-		margin-right: 20px;
-		display:inline-table;
-		text-align: center;
-	}
 	h2
 	{
 		font-size:1.3em;
@@ -135,6 +141,18 @@ td
 /*For extra small devices*/
 @media (max-width: 767px)
 {
+	#details-headings td
+	{
+		display:inline-block;
+		padding:0;
+		margin-right:40px;
+	}
+	#details-values td
+	{
+		padding:0;
+		display:inline-block;
+		margin-right:40px;
+	}
 	hr
 	{
 		margin-bottom: 40px;
@@ -155,47 +173,24 @@ td
 	#details-headings
 	{
 		font-weight:normal;
-	}
-	td
-	{
-		margin-right: 20px;
-		display:inline-table;
-		text-align: center;
 	}
 	h2
 	{
 		font-size:1.2em;
 	}
 }
-/* for very small devices such as iphone 4*/
-@media (max-width: 479px)
+@media (max-width:607px)
 {
-	hr
+	#details-headings td
 	{
-		margin-bottom: 40px;
-		border-top: 2.5px solid #ccc;
+		display:inline-block;
+		padding:0;
+		margin-right:20px;
 	}
-	#internship-type
+	#details-values td
 	{
-		text-align:center;
-	}
-	#company-name
-	{
-		text-align:center;
-	}
-	#loc
-	{
-		text-align:center;
-	}
-	#details-headings
-	{
-		text-align: center;
-		font-weight:normal;
-	}
-	td
-	{
-		margin-right: 20px;
-		display:inline-table;
-		text-align:center;
+		padding:0;
+		display:inline-block;
+		margin-right:20px;
 	}
 }
