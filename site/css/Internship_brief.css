@@ -153,11 +153,46 @@ td
 	}
 	td
 	{
-		padding-left:20px;
-		padding-right:20px;
+		padding-left:15px;
+		padding-right:15px;
 	}
 	h2
 	{
 		font-size:1.2em;
+	}
+}
+/* for very small devices such as iphone 4*/
+@media (max-width: 479px)
+{
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		text-align: center;
+		font-weight:normal;
+	}
+	td
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	h2
+	{
+		font-size:1.1em;
 	}
 }
