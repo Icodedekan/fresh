@@ -52,7 +52,8 @@ td
 {
 	font-size:1.2em;
 	text-align: center;
-	padding-right: 100px;
+	padding-left:50px;
+	padding-right: 50px;
 	padding-bottom:0.5em;
 }
 #internships
@@ -62,4 +63,101 @@ td
 #location
 {
 	color:#4AC948;
+}
+/*Tablet view*/
+@media (min-width:992px) and (max-width:1199px)
+{
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight: normal;
+	}
+	h2
+	{
+		font-size:1.4em;
+	}
+}
+/*For small devices*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight: normal;
+	}
+	td
+	{
+		padding-left:25px;
+		padding-right:25px;
+	}
+	h2
+	{
+		font-size:1.3em;
+	}
+}
+/*For extra small devices*/
+@media (max-width: 767px)
+{
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight:normal;
+	}
+	td
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	h2
+	{
+		font-size:1.2em;
+	}
 }

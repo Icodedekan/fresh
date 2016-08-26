@@ -88,3 +88,136 @@ p
 	font-size:1.3em;
 	text-decoration: underline;
 }
+/*Tablet view*/
+@media (min-width:992px) and (max-width:1199px)
+{
+	#about-company
+	{
+		text-align:center;
+	}
+	p
+	{
+		text-align: center;
+	}
+	#about-intern
+	{
+		text-align: center;
+	}
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight: normal;
+	}
+	h2
+	{
+		font-size:1.4em;
+	}
+}
+/*For small devices*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+	#about-company
+	{
+		text-align:center;
+	}
+	p
+	{
+		text-align: center;
+	}
+	#about-intern
+	{
+		text-align: center;
+	}
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight: normal;
+	}
+	td
+	{
+		padding-left:25px;
+		padding-right:25px;
+	}
+	h2
+	{
+		font-size:1.3em;
+	}
+}
+/*For extra small devices*/
+@media (max-width: 767px)
+{
+	#about-company
+	{
+		text-align:center;
+	}
+	p
+	{
+		text-align: center;
+	}
+	#about-intern
+	{
+		text-align: center;
+	}
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight:normal;
+	}
+	td
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	h2
+	{
+		font-size:1.2em;
+	}
+}
