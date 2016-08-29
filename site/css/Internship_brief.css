@@ -9,8 +9,13 @@
 {
 	box-sizing: border-box;
 }
-body
+/*#wrapper
 {
+	overflow-x: hidden;
+}*/
+html,body
+{
+	overflow-x:hidden;
 	background-color:white;
 }
 hr
@@ -190,17 +195,79 @@ td
 }
 @media (max-width:543px)
 {
-	#details-headings td
+	table
 	{
-		background-color: blue;
-		display:inline-block;
-		padding:0;
-		margin-right:25px;
+		background-color:blue;
+		width:100%;
+		overflow-x: hidden !important;
+		margin-left:0px;
 	}
-	#details-values td
+	td
 	{
 		padding:0;
-		display:inline-block;
-		margin-right:30px;
-	}	
+	}
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight:normal;
+	}
+	h2
+	{
+		font-size:1.2em;
+	}
+}
+@media (max-width:406px)
+{
+	table
+	{
+		background-color:blue;
+		width:100%;
+		overflow-x: hidden !important;
+		margin-left:0px;
+	}
+	td
+	{
+		padding:0;
+	}
+	hr
+	{
+		margin-bottom: 40px;
+		border-top: 2.5px solid #ccc;
+	}
+	#internship-type
+	{
+		text-align:center;
+	}
+	#company-name
+	{
+		text-align:center;
+	}
+	#loc
+	{
+		text-align:center;
+	}
+	#details-headings
+	{
+		font-weight:normal;
+	}
+	h2
+	{
+		font-size:1.2em;
+	}
 }
