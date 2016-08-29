@@ -1,3 +1,10 @@
+@-moz-document url-prefix()
+{
+	fieldset
+	{
+		display: table-cell;
+	}
+}
 *
 {
 	box-sizing: border-box;
@@ -14,6 +21,7 @@ hr
     border: 0;
     border-top: 1px solid #ccc;
     padding: 0; 
+    width:80%;
 }
 #details-headings
 {
@@ -27,11 +35,6 @@ hr
 	margin-top:100px;
 	font-size:1.5em;
 }
-#company-name
-{
-	color:#4AC948;
-	font-size:1.4em;
-}
 .intern
 {
 	margin-top:50px;
@@ -40,25 +43,35 @@ hr
 {
 	font-size:1.6em;
 	margin-bottom:-10px;
+	text-align:center;
 }
 #loc
 {
+	margin-top:20px;
 	font-size:1.2em;
 	margin-bottom: 40px;
+	text-align:center;
 }
 table
 {
 	border-collapse: collapse;
-	width:100%;
+	border:0px;
+	border-spacing:0px;
 	text-align: center;
+	margin-left:160px;
 }
 td
 {
 	font-size:1.2em;
-	text-align: center;
-	padding-left:50px;
-	padding-right: 50px;
 	padding-bottom:0.5em;
+	padding-right:40px;
+	padding-left:40px;
+	text-align:center;
+}
+#bried-details td
+{
+	text-align:center;
+	vertical-align:middle;
 }
 #internships
 {
@@ -80,10 +93,6 @@ td
 	{
 		text-align:center;
 	}
-	#company-name
-	{
-		text-align:center;
-	}
 	#loc
 	{
 		text-align:center;
@@ -91,6 +100,10 @@ td
 	#details-headings
 	{
 		font-weight: normal;
+	}
+	table
+	{
+		margin-left:100px;
 	}
 	h2
 	{
@@ -100,17 +113,14 @@ td
 /*For small devices*/
 @media (min-width: 768px) and (max-width: 991px)
 {
-	#details-headings td
+	table
 	{
-		display:inline-block;
-		padding:0;
-		margin-right:40px;
+		margin-left:80px;
 	}
-	#details-values td
+	td
 	{
-		padding:0;
-		display:inline-block;
-		margin-right:40px;
+		padding-right: 20px;
+		padding-left: 20px;
 	}
 	hr
 	{
@@ -143,21 +153,14 @@ td
 {
 	table
 	{
-		position:relative;
+		width:75%;
+		overflow-x: hidden;
+		margin-left:80px;
 	}
-	#details-headings td
+	td
 	{
-		position:relative;
-		display:inline-block;
-		padding:0;
-		right:0;
-		margin-right:40px;
-	}
-	#details-values td
-	{
-		padding:0;
-		display:inline-block;
-		margin-right:40px;
+		padding-right:6px;
+		padding-left:6px;
 	}
 	hr
 	{
@@ -183,35 +186,5 @@ td
 	h2
 	{
 		font-size:1.2em;
-	}
-}
-@media (max-width:607px)
-{
-	#details-headings td
-	{
-		display:inline-block;
-		padding:0;
-		margin-right:20px;
-	}
-	#details-values td
-	{
-		padding:0;
-		display:inline-block;
-		margin-right:20px;
-	}
-}
-@media (max-width:400px)
-{
-	#details-headings td
-	{
-		display:inline-block;
-		padding:0;
-		margin-right:25px;
-	}
-	#details-values td
-	{
-		padding:0;
-		display:inline-block;
-		margin-right:30px;
 	}
 }

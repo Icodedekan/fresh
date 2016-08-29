@@ -19,7 +19,7 @@ hr
 {
 	text-align: center;
 	text-decoration: underline;
-	margin-top:50px;
+	margin-top:80px;
 }
 #company-name
 {
@@ -38,6 +38,7 @@ hr
 #loc
 {
 	margin-bottom: 40px;
+	margin-top:20px;
 }
 table
 {
