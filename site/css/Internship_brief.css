@@ -149,18 +149,18 @@ td
 	}
 }
 /*For extra small devices*/
-@media (max-width: 767px)
+@media (min-width:544px) and (max-width: 767px)
 {
 	table
 	{
-		width:75%;
+		width:78%;
 		overflow-x: hidden;
-		margin-left:80px;
+		margin-left:65px;
 	}
 	td
 	{
-		padding-right:6px;
-		padding-left:6px;
+		padding-right:2px;
+		padding-left:3px;
 	}
 	hr
 	{
@@ -187,4 +187,20 @@ td
 	{
 		font-size:1.2em;
 	}
+}
+@media (max-width:543px)
+{
+	#details-headings td
+	{
+		background-color: blue;
+		display:inline-block;
+		padding:0;
+		margin-right:25px;
+	}
+	#details-values td
+	{
+		padding:0;
+		display:inline-block;
+		margin-right:30px;
+	}	
 }
